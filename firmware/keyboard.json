@@ -1,6 +1,6 @@
 {
     "manufacturer": "SpamixOfficial",
-    "keyboard_name": "truckpad",
+    "keyboard_name": "TruckPad",
     "maintainer": "SpamixOfficial",
     "bootloader": "rp2040",
     "features": {
@@ -32,7 +32,7 @@
         "driver": "vendor"
     },
     "processor": "RP2040",
-    "url": "",
+    "url": "https://github.com/spamixofficial/truckpad",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0xDEAD",
