@@ -1,0 +1,53 @@
+{
+    "manufacturer": "SpamixOfficial",
+    "keyboard_name": "truckpad",
+    "maintainer": "SpamixOfficial",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true,
+        "rgblight": true
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP28", "pin_b": "GP29"}
+        ]
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP26","GP3","GP4","GP2","GP1", "GP27"]
+        ]
+    },
+    "rgblight": {
+        "led_count": 2,
+        "default": {
+            "on": false
+        }
+    },
+    "ws2812": {
+        "pin": "GP0",
+        "driver": "vendor"
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0xDEAD",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT_def": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0, "label": "Mod" },
+                { "matrix": [0, 1], "x": 1, "y": 0, "label": "M1" },
+                { "matrix": [0, 2], "x": 2, "y": 0, "label": "M2" },
+                { "matrix": [0, 3], "x": 3, "y": 0, "label": "M3" },
+                { "matrix": [0, 4], "x": 4, "y": 0, "label": "M4" },
+                { "matrix": [0, 5], "x": 5, "y": 0, "label": "Enc", "encoder": 0 }
+            ]
+        }
+    }
+}
